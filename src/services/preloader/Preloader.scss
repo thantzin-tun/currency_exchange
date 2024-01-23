@@ -1,0 +1,21 @@
+.custom_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: 55;
+    overflow: hidden;
+    background-color: #000;
+    .text {
+        font-size: 100px;
+        font-weight: 600;
+        color: #f8f8f8;
+        display: inline-block;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
